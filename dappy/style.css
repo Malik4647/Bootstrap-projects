@@ -1,0 +1,39 @@
+body {
+  position: relative;
+  height: 100%;
+}
+.content {
+  background-color: #fafcff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  padding: 2rem;
+  margin: 1rem;
+  /* text-align: center; */
+  border-radius: 10px;
+  width: 100%;
+  height: fit-content;
+}
+
+p {
+  color: #82899b;
+  letter-spacing: 0.3px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+i {
+  color: black;
+}
+
+footer {
+  position: sticky;
+  top: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
