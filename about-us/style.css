@@ -1,0 +1,49 @@
+.navbar ul li a {
+  font-size: small;
+}
+
+.navbar .btn-1 {
+  background-color: #020941;
+  color: #fff;
+  font-size: large;
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+.navbar .btn-1:hover {
+  background-color: rgb(24, 24, 230);
+  color: #fff;
+}
+
+.navbar .btn-2 {
+  background-color: orangered;
+  color: #fff;
+  font-size: large;
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+.navbar .btn-2:hover {
+  background-color: rgb(24, 24, 230);
+  color: #fff;
+}
+
+.content {
+  text-align: center;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.content p {
+  width: 75%;
+  font-size: 22px;
+  margin-top: 30px;
+}
